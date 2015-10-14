@@ -80,7 +80,7 @@ public class MainClass {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         int digit = 0;
         String name = "";
-        System.out.println("Enter the number: ");
+        System.out.println("Enter the number:  ");
         try {
             digit = Integer.parseInt(bf.readLine());
             switch(digit){
